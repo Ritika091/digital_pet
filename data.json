@@ -1,0 +1,72 @@
+[{
+    "Name":"Apple",
+    "Points": 4,
+    "Quantity": 4,
+    "Chance": 0.1 
+},
+{
+    "Name":"Bread",
+    "Points": 2,
+    "Quantity": 10,
+    "Chance": 0.2 
+},
+{
+    "Name":"Salad",
+    "Points": 10,
+    "Quantity": 5,
+    "Chance": 0.6 
+},
+{
+    "Name":"Burger",
+    "Points": 3,
+    "Quantity": 8,
+    "Chance": 0.5
+},
+{
+    "Name":"Biscuit",
+    "Points": 6,
+    "Quantity": 12,
+    "Chance": 0.3 
+},
+{
+    "Name":"Guava",
+    "Points": 6,
+    "Quantity": 7,
+    "Chance": 0.4
+},
+{
+    "Name":"Pizza",
+    "Points": 5,
+    "Quantity": 4,
+    "Chance": 0.2
+},
+{
+    "Name":"Chicken",
+    "Points": 8,
+    "Quantity": 6,
+    "Chance": 0.6 
+},
+{
+    "Name":"Nuts",
+    "Points": 5,
+    "Quantity": 4,
+    "Chance": 0.8
+},
+{
+    "Name":"Potato",
+    "Points":9,
+    "Quantity": 3,
+    "Chance": 0.4 
+},
+{
+    "Name":"Broccoli",
+    "Points":6,
+    "Quantity": 9,
+    "Chance": 0.4 
+},
+{
+    "Name":"Beans",
+    "Points":3,
+    "Quantity": 6,
+    "Chance": 0.2 
+}]

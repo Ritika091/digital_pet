@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-ca">
+  <head>
+    <!-- Specify Character Encoding -->
+    <meta charset="UTF-8" />
+    <!-- Controls Layout on Browsers -->
+    <meta name="viewport" content="width=device-width" minimum-scale="1.0" />
+    <!-- Who are you? -->
+    <meta name="author" content="Harpreet Singh" />
+    <!-- Attach Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="#">
+
+    <!-- Name Your Page -->
+    <title>Tamagochi Character</title>
+  </head>
+ <style>
+   #bubble{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    left: 59%;
+    bottom: 28%;
+   }
+#thought{
+  position: relative;
+    left: 62%;
+    bottom: -328px;
+    z-index: 1;
+    font-size: 20px;
+    
+}
+#thought2{
+  position: relative;
+    left: 58%;
+    bottom: -346px;
+    z-index: 1;
+    font-size: 20px;
+}
+#tho{
+  display: none;
+}
+
+ </style>
+  <body>
+    <h1 id="demo" style="text-align: center;"></h1>
+    <div class="info">
+      <div id="timer">
+       <p id="time">Timer</p>
+      </div>
+      <div id="points">
+       <p id="point">Points</p>
+      </div>
+    </div>
+    <div id="tho">
+    <span id="thought"></span>
+      <span id="thought2"></span>
+    <img src="img/bubble.png" alt="" id="bubble">
+  </div>
+    <main>
+     
+      <section id="menu">
+      
+        <button id="new" onclick="Tamogotchi()" >New game</button>
+  <br>  
+        <button id="start_over" onclick="resetFood()">Start over?</button>
+      <br>
+      <br>
+        <input type="text" id="name_pet" placeholder="Name your Pet*">
+        <br>
+        <button id="give_name" onclick="Tamogotchi()">Give the name</button>
+        <br>
+        <div class="btn">
+        <button id="anger" >Angry</button>
+        <button id="happ" >Happy</button>
+      </div>
+      <div class="btn2">
+        <button id="sed" >Sad</button>
+        <button id="joke">Jokey</button>
+      </div>
+      </section>
+      <section id="action">
+        <button id="feed" onclick="eatLasagna ()">Feed the Pet</button>
+        <button id="compliment"onclick="makecompliment()">Make a compliment</button>
+        <button id="start_talk">Start Talking</button>
+        <button id="stop_talk">Stop Talking</button>
+      </section>
+      <section id="characterContainer">
+        <object id="characterObj" data="img/tamagochi_character.svg" type="image/svg+xml" title="#"></object>
+      </section>
+
+      <section id="controls">
+        <button id="neutral">Neutral</button>
+        <button id="happy">Happy</button>
+        <button id="angry">Angry</button>
+        <button id="sad">Sad</button>
+      
+      </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Add your JS Script -->
+    <script type="text/javascript" src="js/script.js"  src = "defer" ></script>
+    <script type="text/javascript" src="script.js"  src = "defer" ></script>
+    
+  </body>
+</html>
