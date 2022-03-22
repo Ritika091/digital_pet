@@ -92,4 +92,3 @@ neutral expression
 Have two different kinds of eyes
 Alive eyes
 Crossed out eyes for sick, or starved states
-Please note that there is no grace period for this assignment.  Your project must be submitted by December 13th at 11:59pm.
